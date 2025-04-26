@@ -1,12 +1,12 @@
 # ntnput
-The Minimalist Python library for Windows using wraps of undocumented `Nt` functions to interact with mouse and keyboard stealthy
+The Minimalist Python library for Windows using wraps of undocumented `Nt` functions to interact with mouse and keyboard stealthy.
 
 # Details
-This library uses syscall wraps of undocumented `NtUserInjectMouseInput` and `NtUserInjectKeyboardInput` functions from `win32u.dll` module.</br>
-It's makes keyboard and mouse interaction safe and stealth due to the bypass of Windows triggers.
+This library uses syscall wraps of undocumented `NtUserInjectMouseInput` and `NtUserInjectKeyboardInput` functions from `win32u.dll` module.
+It's makes keyboard and mouse interaction safe and stealth due to the bypass of Windows triggers.</br>
 
-**NtNput** also works faster than analogues because of usage of builtin `ctypes` library allowing to interact directly with C and machine code.</br>
-You can use this library if your process blocks usage of `mouse_event`, `SendInput` or etc. WinAPI functions.
+**NtNput** also works faster than analogues because of usage of builtin `ctypes` library allowing to interact directly with C and machine code.
+You can use this library if your process blocks usage of `mouse_event`, `SendInput` or etc. WinAPI functions.</br>
 
 ## Installation
 1. You can install library using pip:
