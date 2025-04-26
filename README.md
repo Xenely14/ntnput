@@ -29,3 +29,5 @@ And several functions to interact with keyboard:
 1. `keyboard_press(key_code)` - presses keyboard button
 2. `keyboard_release(key_code)` - releases keyboard button
 3. `keyboard_press_and_release(key_code, delay_ms <default 0.0>)` - presses keyboard button, sleeps, releases
+
+You can use official [Microsoft documentation](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes) to find keyboard key codes definitions.
